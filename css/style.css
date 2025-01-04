@@ -218,9 +218,7 @@ img {
   cursor: pointer;
 }
 
- .nav__item{
-  
- }
+
 
 
 /* Show menu */
@@ -233,7 +231,7 @@ img {
 /* Change background header */
 .scroll-header{
   border-radius: 0 0 1rem 1rem;
-  background-color: var(--body-color);
+  background-color: var(--body-color); 
   box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1) ;
 }
 
@@ -334,9 +332,44 @@ img {
 }
 
 /*=============== BUTTON ===============*/
+ .button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem 1rem;
+  border-radius: .25rem;
+  font-size: var(--normal-font-size);
+  transition: .3s;
+ }
+
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
 
 
 /*=============== ABOUT ===============*/
+.about__container{
+  row-gap: 5rem;
+}
+
+.about__group{
+  position: relative;
+}
+
+.about__img{
+  width: 310px;
+  border-radius: 1.5rem;
+}
+
+.about__card-description{
+  margin-bottom: 2rem;
+}
+
+
+
+
+
 
 
 /*=============== POPULAR ===============*/
